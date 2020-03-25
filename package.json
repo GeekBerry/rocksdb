@@ -1,0 +1,25 @@
+{
+  "name": "@geekberry/rocksdb",
+  "version": "0.0.0",
+  "author": "<geekberry@qq.com>",
+  "license": "MIT",
+  "keywords": [
+    "rocksdb",
+    "backend"
+  ],
+  "main": "src/RocksDB.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "rocksdb": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "eslint": "eslint ./lib ./src ./test",
+    "test": "jest",
+    "public": "yarn publish --access=public"
+  }
+}
