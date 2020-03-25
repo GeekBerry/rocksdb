@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "author": "<geekberry@qq.com>",
   "license": "MIT",
+  "repository": "https://github.com/GeekBerry/rocksdb.git",
   "keywords": [
     "rocksdb",
     "backend"
@@ -18,7 +19,6 @@
     "jest": "^25.1.0"
   },
   "scripts": {
-    "eslint": "eslint ./lib ./src ./test",
     "test": "jest",
     "public": "yarn publish --access=public"
   }

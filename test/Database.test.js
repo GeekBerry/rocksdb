@@ -1,7 +1,7 @@
-const RocksDB = require('../');
+const DataBase = require('../');
 
-const database = new RocksDB({
-  location: './testRocksDBData',
+const database = new DataBase({
+  location: './DATA',
   asBuffer: false,
 });
 
@@ -84,5 +84,5 @@ test('batch list', async () => {
 });
 
 afterAll(async () => {
-  await database.destroy();
+  // await database.destroy();
 });
